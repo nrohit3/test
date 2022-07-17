@@ -6,3 +6,5 @@ cur=connect.cursor(buffered=True)
 q1='select * from r1pred.good_raw_data'
 cur.execute(q1)
 print(cur.fetchall())
+
+#Above is basic db query
